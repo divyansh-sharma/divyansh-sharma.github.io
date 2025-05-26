@@ -63,6 +63,36 @@ header nav ul li a:hover {
     min-height: 400px; /* Ensure footer isn't too high on short pages */
 }
 
+/* Section Styling */
+#about-me, #my-skills, #my-projects {
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #fff; /* Optional: give sections a white background */
+    border-radius: 5px; /* Optional: rounded corners for sections */
+}
+
+#my-skills ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+#my-projects ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Scroll Animation Classes */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* Footer Styles */
 footer {
     background-color: #333; /* Dark background for footer */
